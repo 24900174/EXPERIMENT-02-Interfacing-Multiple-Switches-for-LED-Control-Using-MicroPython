@@ -64,7 +64,7 @@ Connect LED 2 to GP17 via a 330Ω resistor.
 Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
-''''
+````
 import dht
 import machine 
 import time
@@ -84,11 +84,9 @@ while True:
     except Exception as e:
         print("Error reading sensor:", e)
     time.sleep(2) # Wait for 2 seconds before next reading
- ````
-````
 
  
-
+````
 ## OUTPUT
 ![Screenshot 2025-03-06 115251](https://github.com/user-attachments/assets/7b024b12-00c8-4c31-ba0f-e00ff145628d)
 
